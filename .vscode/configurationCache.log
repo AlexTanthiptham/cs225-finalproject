@@ -1,0 +1,1 @@
+{"buildTargets":["all","clean","dijkstra","finalproj","graph","output_msg","readFromFile","test","testbench"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

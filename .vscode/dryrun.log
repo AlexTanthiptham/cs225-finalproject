@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/home/jt20/cs225fa21finalproject'
+ 
+make: Leaving directory `/home/jt20/cs225fa21finalproject'
+ 
+Makefile:38: *** [0;31m On EWS, please run 'module load llvm/6.0.1' first when running CS225 assignments. [0m.  Stop.
+ 

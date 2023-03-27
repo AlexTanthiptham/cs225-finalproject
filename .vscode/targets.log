@@ -1,0 +1,474 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 2010  Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+Makefile:38: *** [0;31m On EWS, please run 'module load llvm/6.0.1' first when running CS225 assignments. [0m.  Stop.
+ 
+
+# Make data base, printed on Mon Dec 13 22:31:34 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+QTDIR = /usr/lib/qt-3.3
+# environment
+VSCODE_AGENT_FOLDER = /home/jt20/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+MODULEPATH = /usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/etc/modulefiles/env:/etc/modulefiles/class:/etc/modulefiles/software
+# makefile (from `Makefile', line 17)
+ccyellow = $(shell echo -e "\033[0;33m")
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 3.82
+# makefile
+CURDIR := /home/jt20/cs225fa21finalproject
+# makefile
+SHELL = /bin/sh
+# environment
+LMODARCH = x86_64
+# environment
+LMOD_DIR = /usr/share/lmod/lmod/libexec
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 14)
+CUSTOM = $(CS225) -std=c++14 -stdlib=libc++ -g -O0 -Wall -Wextra -pedantic
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+HISTCONTROL = ignoredups
+# makefile (from `Makefile', line 11)
+CXXFLAGS = $(CS225) -std=c++14 -stdlib=libc++ -c -g -O0 -Wall -Wextra -pedantic
+# environment
+define BASH_FUNC_ml()
+() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+endef
+# environment
+XDG_DATA_DIRS = /home/jt20/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+QT_PLUGIN_PATH = /usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /home/jt20
+# environment
+KRB5CCNAME = FILE:/tmp/krb5cc_1095052_wpXD5c
+# environment
+SSH_CONNECTION = 10.251.28.9 65443 192.17.11.92 22
+# environment
+PATH = /home/jt20/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/bin:/home/jt20/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/bin:/usr/lib/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/software/ews/bin:/software/ews/bin
+# environment
+LMOD_CMD = /usr/share/lmod/lmod/libexec/lmod
+# makefile (from `Makefile', line 12)
+LD = clang++
+# environment
+QT_GRAPHICSSYSTEM_CHECKED = 1
+# environment
+XDG_RUNTIME_DIR = /run/user/1095052
+# environment
+BASH_ENV = /usr/share/lmod/lmod/init/bash
+# environment
+VSCODE_LOG_STACK = false
+# environment
+SELINUX_USE_CURRENT_RANGE = 
+# environment
+LMOD_VERSION = 8.2.7
+# makefile (from `Makefile', line 13)
+LDFLAGS = -std=c++14 -stdlib=libc++ -lc++abi -lm -g
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver check-symlink
+# environment
+SOFTPATH = /software
+# automatic
+%F = $(notdir $%)
+# environment
+KDEDIRS = /usr
+# makefile (from `Makefile', line 16)
+ccred = $(shell echo -e "\033[0;31m")
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `Makefile', line 7)
+OBJS = readFromFile.o main.o graph.o dfs.o dijkstra.o
+# environment
+PWD = /home/jt20/cs225fa21finalproject
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1095052/vscode-ipc-f39f7acd-8da8-4e18-9c62-9aa1df204fa6.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MANPATH = /usr/share/lmod/lmod/share/man:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/jt20
+# environment
+MODULESHOME = /usr/share/lmod/lmod
+# environment
+LOGNAME = jt20
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+SELINUX_LEVEL_REQUESTED = 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+LMOD_sys = Linux
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = siebl-0224-11.ews.illinois.edu
+# environment
+LMOD_arch = x86_64
+# environment
+MAKELEVEL := 0
+# environment
+SSH_ASKPASS = /usr/libexec/openssh/gnome-ssh-askpass
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 5
+# environment
+XDG_SESSION_ID = 5301
+# environment
+USER = jt20
+# environment
+QTLIB = /usr/lib/qt-3.3/lib
+# makefile (from `Makefile', line 4)
+EXENAME = finalproj
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+define BASH_FUNC_module()
+() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+endef
+# environment
+MODULEPATH_ROOT = /usr/share/modulefiles
+# default
+MAKE_COMMAND := make
+# makefile (from `Makefile', line 18)
+ccend = $(shell echo -e "\033[0m")
+# default
+.VARIABLES := 
+# environment
+CVS_RSH = ssh
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# environment
+SSH_CLIENT = 10.251.28.9 65443 22
+# environment
+MAIL = /var/spool/mail/jt20
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+DISTARCH = Linux-x86_64
+# environment
+BROWSER = /home/jt20/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/bin/helpers/browser.sh
+# environment
+LMOD_PKG = /usr/share/lmod/lmod
+# makefile (from `Makefile', line 21)
+IS_CORRECT_CLANG = $(shell clang -v 2>&1 | grep "version 6")
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 10)
+CXX = clang++
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+SELINUX_ROLE_REQUESTED = 
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000
+# environment
+LMOD_ROOT = /usr/share/lmod
+# environment
+LMOD_SETTARG_FULL_SUPPORT = no
+# makefile (from `Makefile', line 20)
+IS_EWS = $(shell hostname | grep "ews.illinois.edu") 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/jt20/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/remote/node_modules
+# environment
+QTINC = /usr/lib/qt-3.3/include
+# default
+.RECIPEPREFIX := 
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LANG = C
+# environment
+COBBLER_SERVER = cobbler-01.engrit.illinois.edu
+# makefile (from `Makefile', line 24)
+CLANG_VERSION_MSG = $(error $(ccred) On EWS, please run 'module load llvm/6.0.1' first when running CS225 assignments. $(ccend))
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=13/151=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 84399203): 36 files, no impossibilities.
+
+# 36 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+testbench.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+output_msg:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := output_msg
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/17=24%
+#  recipe to execute (from `Makefile', line 38):
+	 $(CLANG_VERSION_MSG)
+
+readFromFile: readFromFile.cpp
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 47):
+	$(CXX) $(CXXFLAGS) readFromFile.cpp
+
+# Not a target:
+readFromFile.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: finalproj
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+.PHONY: all test clean output_msg
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dfs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 22:31:34.17567
+#  File has been updated.
+#  Successfully updated.
+
+test: output_msg catch/catchmain.cpp tests/tests.cpp readFromFile.cpp graph.cpp dfs.cpp dijkstra.cpp debug.cpp tarjan.cpp
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 56):
+	$(LD) catch/catchmain.cpp tests/tests.cpp readFromFile.cpp testbench.cpp graph.cpp dfs.cpp dijkstra.cpp debug.cpp tarjan.cpp $(LDFLAGS) -o test
+
+# Not a target:
+graph.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dijkstra: dijkstra.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 53):
+	$(CXX) $(CXXFLAGS) dijkstra.cpp
+
+# Not a target:
+dijkstra.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+testbench: testbench.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 50):
+	$(CXX) $(CXXFLAGS) testbench.cpp
+
+# Not a target:
+catch/catchmain.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tarjan.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/tests.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+readFromFile.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 59):
+	-rm -f *.o $(EXENAME) test
+
+# Not a target:
+dfs.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+graph: graph.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 44):
+	$(CXX) $(CXXFLAGS) graph.cpp
+
+# Not a target:
+main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+graph.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+finalproj: output_msg readFromFile.o main.o graph.o dfs.o dijkstra.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-13 22:10:34.136953
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+#  recipe to execute (from `Makefile', line 41):
+	$(LD) $(OBJS) $(LDFLAGS) -o $(EXENAME)
+
+# Not a target:
+debug.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dijkstra.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=27/1024=3%, Rehash=0, Collisions=1/67=1%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0 / lookups = 90 / hits = 90
+# # of strcache buffers: 1 (* 8176 B/buffer = 8176 B)
+# strcache used: total = 0 (499) / max = 0 / min = 8176 / avg = 0
+# strcache free: total = 0 (7677) / max = 0 / min = 8176 / avg = 0
+
+# strcache hash-table stats:
+# Load=50/8192=1%, Rehash=0, Collisions=1/90=1%
+# Finished Make data base on Mon Dec 13 22:31:34 2021
+
+ 
